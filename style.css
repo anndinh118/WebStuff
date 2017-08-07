@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Francoisone);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 16;
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(http://wallpapercraft.net/wp-content/uploads/2016/10/Architecture-Background-for-Desktop.jpg) no-repeat 50% 50%;
+	/*ttps://static.pexels.com/photos/26206/pexels-photo.jpg */
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	witdh: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Francoisone', sans-serif;
+	color: #DC143C;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 400%;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', san-serif;
+	color: OldLace;
+	font-size: 135%;
+	padding: 7px 18px;
+	border: solid OldLace 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: DeepSkyBlue;
+	border: solid DeepSkyblue 3px;
+}
+ 
+ /* Size for mobile phone/ipad */
+ @media screen and (max-width: 768px) {
+ 	.content h1 {
+ 		front-size: 200%;
+ 	}
+ 	.btn {
+ 		front-size: 100%;
+ 		padding: 4px 12px;
+ 	}
+ }
+  /*==================================================== homepage image =============================================================*/
+
+  /* #9a112e */
+
+  .links h2 {
+  	font-family: 'Francoisone', sans-serif;
+  	color: #DC143C;
+  	font-weight: bold;
+  	text-decoration: underline;
+}  
